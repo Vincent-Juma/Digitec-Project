@@ -47,7 +47,10 @@ nav {
 h1 {
     color:blue;
     text-decoration: underline;
-    background: rgba(2, 94, 30, 0.678);
+    text-shadow: rgba(10, 10, 10, 0.678);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 img {
     width: 341px;
@@ -87,6 +90,7 @@ padding: 20px;
 }
 #Sevice2:hover {
     background: rgba(236, 240, 214, 0.978);
+}
 #Service2 ul {
     text-align: left;
 }
