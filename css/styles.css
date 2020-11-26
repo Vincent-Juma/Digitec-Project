@@ -71,12 +71,10 @@ body {
     height: 2000px;
 }
 #Service1 {
-    width: 1000px;
-    height: 430px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(10, 10, 10, 0.678);
     color: rgba(64, 106, 212, 0.7);
-    padding: 0em;
+    padding-top: 20px;
 }
 #Service1:hover {
     background: rgba(236, 240, 214, 0.978);
@@ -103,15 +101,5 @@ footer {
     height: 200px;
 }
 footer>nav {
-    display: inline-block
-    position: unset;
-
-}
-table {
-    border: 3px solid azure;
-    display: grid;
-
-}
-table :hover {
-    text-decoration: underline;
+    display: flex;
 }
